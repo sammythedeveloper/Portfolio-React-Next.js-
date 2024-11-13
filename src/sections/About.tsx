@@ -96,14 +96,6 @@ export const AboutSection = () => {
               description=" Explore the technologies and tools I use to craft expceptional
                 digital experience"
             />
-            <div>
-              {toolboxItems.map((item) => (
-                <div key={item.title}>
-                  <TechIcon component={item.iconType} />
-                  <span>{item.title}</span>
-                </div>
-              ))}
-            </div>
           </Card>
           <Card>
             <CardHeader
