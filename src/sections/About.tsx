@@ -9,10 +9,11 @@ import React from "@/assets/icons/react.svg";
 import CSS3 from "@/assets/icons/css3.svg";
 import Github from "@/assets/icons/github.svg";
 import NodeJs from "@/assets/icons/Node.js.svg";
-import { TechIcon } from "@/components/Techicon";
+import { TechIcon } from "@/components/TechIcon";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
+import { Toolboxitems } from "@/components/Toolboxitems";
 
 const toolboxItems = [
   {
@@ -90,12 +91,15 @@ export const AboutSection = () => {
               <Image src={bookImage} alt="Book Vover" />
             </div>
           </Card>
-          <Card>
+          <Card className="h-[320px] p-0" >
             <CardHeader
               title="My Toolbox"
               description=" Explore the technologies and tools I use to craft expceptional
                 digital experience"
+              className="px-6 pt-6 "
             />
+            <Toolboxitems items={toolboxItems} className="mt-6" />
+            <Toolboxitems items={toolboxItems} className="mt-6" />
           </Card>
           <Card>
             <CardHeader
