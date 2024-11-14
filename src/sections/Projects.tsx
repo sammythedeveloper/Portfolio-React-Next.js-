@@ -46,10 +46,14 @@ const portfolioProjects = [
     image: aiStartupLandingPage,
   },
 ];
+interface SectionProps {
+  id: string;
+}
 
-export const ProjectsSection = () => {
+
+export const ProjectsSection: React.FC<SectionProps> = ({ id })  => {
   return (
-    <section className="pb-16 lg:py-24 ">
+    <section className="pb-16 lg:py-24 " id={id} >
       <div className="container">
         <SectionHeader
           eyebrows="   Real-world Results"

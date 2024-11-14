@@ -1,8 +1,14 @@
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
-export const ContactSection = () => {
+
+interface SectionProps {
+  id: string;
+}
+
+
+export const ContactSection: React.FC<SectionProps> = ({ id }) => {
   return (
-    <div className="py-16 pt-12 lg:py-24 lg:pt-20">
+    <div className="py-16 pt-12 lg:py-24 lg:pt-20" id={id} >
       <div className="container">
         <div className=" bg-gradient-to-r from-emerald-300 to-sky-400 relative  text-gray-900 py-8 px-10 rounded-3xl text-center md:text-left overflow-hidden z-0">
           <div

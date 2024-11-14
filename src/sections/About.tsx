@@ -11,7 +11,7 @@ import CSS3 from "@/assets/icons/css3.svg";
 import Github from "@/assets/icons/github.svg";
 import NodeJs from "@/assets/icons/Node.js.svg";
 import mapImage from "@/assets/images/map.png";
-import smileMemoji from "@/assets/images/memoji-smile.png";
+import smileMemoji from "@/assets/images/coder.png";
 import { CardHeader } from "@/components/CardHeader";
 import { Toolboxitems } from "@/components/Toolboxitems";
 import { motion } from "framer-motion";
