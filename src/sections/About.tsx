@@ -88,7 +88,7 @@ const hoobies = [
 
 export const AboutSection = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 lg:py-28 ">
       <div className=" container ">
         <SectionHeader
           eyebrows="About me"
@@ -96,8 +96,8 @@ export const AboutSection = () => {
           description="Learn more about who i am,what inspire me."
         />
         <div className="mt-20 flex flex-col gap-8 ">
-          <div className=" grid grid-cols-1 gap-8 md:grid-cols-5 " >
-          <Card className=" h-[320px] md:col-span-2 ">
+          <div className=" grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3  " >
+          <Card className=" h-[320px] md:col-span-2 lg:col-span-1  ">
             <CardHeader
               title="My Reads"
               description="Explore the books shaping my perspectives."
@@ -106,7 +106,7 @@ export const AboutSection = () => {
               <Image src={bookImage} alt="Book Vover" />
             </div>
           </Card>
-          <Card className="h-[320px] md:col-span-3  ">
+          <Card className="h-[320px] md:col-span-3 lg:col-span-2  ">
             <CardHeader
               title="My Toolbox"
               description=" Explore the technologies and tools I use to craft expceptional
@@ -121,8 +121,8 @@ export const AboutSection = () => {
             />
             </Card>
           </div>
-          <div className=" grid grid-cols-1 md:grid-cols-5 gap-8  " >
-          <Card className="h-[320px] p-0 flex flex-col md:col-span-3  ">
+          <div className=" grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8  " >
+          <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2  ">
             <CardHeader
               title="Beyond the code"
               description=" Explore my interests and hobbies beyond the digital realm"
@@ -146,7 +146,7 @@ export const AboutSection = () => {
               ))}
             </div>
           </Card>
-          <Card className="h-[320px] p-0 md:col-span-2 " >
+          <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1 " >
             <Image src={mapImage} alt="map" className="h-full w-full object-left-top" />
             <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20  rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:content-[''] after:absolute after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30 " >
               <Image src={smileMemoji} alt="smiling" className=" size-20 " />
