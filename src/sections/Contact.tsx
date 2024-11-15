@@ -1,10 +1,13 @@
+'use client'; 
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 
 interface SectionProps {
   id: string;
 }
-
+const handleConnectClick = () => {
+  window.location.href = "mailto:samsondaba484@gmail.com?subject=Let's Connect&body=Hello, I would like to connect!";
+};
 
 export const ContactSection: React.FC<SectionProps> = ({ id }) => {
   return (
@@ -28,7 +31,8 @@ export const ContactSection: React.FC<SectionProps> = ({ id }) => {
               </p>
             </div>
             <div>
-            <button className=" text-white bg-gray-900 inline-flex items-center px-6 h-12 w-max border-gray-900 rounded-xl gap-2 mt-8 ">
+              <button className=" text-white bg-gray-900 inline-flex items-center px-6 h-12 w-max border-gray-900 rounded-xl gap-2 mt-8 "
+              onClick={handleConnectClick} >
               <span className=" font-semibold ">Contact Me</span>
               <ArrowUpRightIcon className="size-4" />
               </button>

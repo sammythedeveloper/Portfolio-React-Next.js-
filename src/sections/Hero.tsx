@@ -10,7 +10,10 @@ interface SectionProps {
   id: string;
 }
 
-export const HeroSection: React.FC<SectionProps> = ({ id })  => {
+export const HeroSection: React.FC<SectionProps> = ({ id }) => {
+  const handleConnectClick = () => {
+    window.location.href = "mailto:samsondaba484@gmail.com?subject=Let's Connect&body=Hello, I would like to connect!";
+  };
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip " id={id} >
       <div className=" absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">

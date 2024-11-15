@@ -6,6 +6,12 @@
     .nav-item{
         @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300
     }
+      /* Focused link styling */
+      .nav-item-active {
+        background-color: white;
+        color: gray;
+    }
+
     .hero-ring{
         @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_inset] shadow-emerald-300/5
     }
@@ -16,4 +22,12 @@
     .container {
         @apply lg:max-w-5xl
     }
+}
+/* Add this CSS */
+#hero:target ~ .flex nav a[href="#hero"],
+#projects:target ~ .flex nav a[href="#projects"],
+#about:target ~ .flex nav a[href="#about"],
+#contact:target ~ .flex nav a[href="#contact"] {
+  background-color: white;
+  color: gray;
 }

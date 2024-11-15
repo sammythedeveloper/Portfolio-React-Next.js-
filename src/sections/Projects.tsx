@@ -10,15 +10,15 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Hybrid Fincials",
+    year: "2023",
+    title: "Personal-expense-tracking Application",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Track personal expense" },
+      { title: "Catagorize and list expenses" },
+      { title: "Boost money saving & spending by 80%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "https://sammythedeveloper.github.io/Personal-Expense-Tracker/",
     image: darkSaasLandingPage,
   },
   {
