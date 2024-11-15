@@ -70,7 +70,7 @@ export const HeroSection: React.FC<SectionProps> = ({ id }) => {
               <div className="bg-green-500 inset-0 absolute rounded-full animate-ping-large " ></div>
             </div>
             <div className=" text-sm font-medium  ">
-              Available for new projects
+              Hey it's me Samson welcome
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ export const HeroSection: React.FC<SectionProps> = ({ id }) => {
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 ">
         <button className=" inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-          <span className="font-semibold">Explore My Work Here</span>
+          <span className="font-semibold">Explore My Work Below</span>
           <ArrowDown className="size-4" />
         </button>
         <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
