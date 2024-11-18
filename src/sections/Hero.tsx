@@ -70,17 +70,17 @@ export const HeroSection: React.FC<SectionProps> = ({ id }) => {
               <div className="bg-green-500 inset-0 absolute rounded-full animate-ping-large " ></div>
             </div>
             <div className=" text-sm font-medium  ">
-              Hey it's me Samson welcome
+              Hey it's me Samson welcome 
             </div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide ">
-            Building Exceptional user Experiences
+            I Build Exceptional user Experiences
           </h1>
           <p className=" mt-4 text-center text-white/60 md:text-lg">
             I specialize in transforming design into functional,high-performing
-            web applications.Let's discuss your next project
+            web applications.Let me add value to your next project
           </p>
         </div>
       </div>

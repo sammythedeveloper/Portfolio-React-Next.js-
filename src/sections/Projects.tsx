@@ -1,5 +1,5 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import Finance from "@/assets/images/finance.jpg";
+import Amazon from "@/assets/images/amazon.jpg";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -10,8 +10,8 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Hybrid Fincials",
-    year: "2023",
+    company: "Demo Hybrid Fincials",
+    year: "",
     title: "Personal-expense-tracking Application",
     results: [
       { title: "Track personal expense" },
@@ -19,19 +19,19 @@ const portfolioProjects = [
       { title: "Boost money saving & spending by 80%" },
     ],
     link: "https://sammythedeveloper.github.io/Personal-Expense-Tracker/",
-    image: darkSaasLandingPage,
+    image: Finance,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "EvangadiTech",
+    year: "",
+    title: "Amazon Shopping",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Interactive design" },
+      { title: "Secure User Authentication" },
+      { title: "Payment Tokenization" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://sammythedeveloper.github.io/amazonclone-2023/",
+    image: Amazon ,
   },
   {
     company: "Quantum Dynamics",
@@ -58,7 +58,7 @@ export const ProjectsSection: React.FC<SectionProps> = ({ id })  => {
         <SectionHeader
           eyebrows="   Real-world Results"
           title="  Featured Projects"
-          description="See how I transform concepts into engaging ditital experiences."
+          description="See how I transform concepts into engaging digital experiences."
         />
         <div className="flex justify-center">
           <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-center bg-clip-text text-transparent   "></p>
