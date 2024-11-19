@@ -7,6 +7,7 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
+import Movie from "@/assets/images/movie.jpg";
 
 const portfolioProjects = [
   {
@@ -34,16 +35,16 @@ const portfolioProjects = [
     image: Amazon ,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Coming soon",
+    year: "2024",
+    title: "Movie review app",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Build with Java & Springboot" },
+      { title: "Fetchdata and to MongoDB" },
+      { title: "Post request to review a movie" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "#",
+    image: Movie,
   },
 ];
 interface SectionProps {
