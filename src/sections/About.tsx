@@ -5,11 +5,17 @@ import { SectionHeader } from "@/components/SectionHeader";
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
-import HTML5 from "@/assets/icons/html5.svg";
+import Typescript from "@/assets/icons/TypeScript.svg";
 import React from "@/assets/icons/react.svg";
-import CSS3 from "@/assets/icons/css3.svg";
+import Photoshop from "@/assets/icons/Adobe-Photoshop.svg";
 import Github from "@/assets/icons/github.svg";
 import NodeJs from "@/assets/icons/Node.js.svg";
+import Bootstrap from "@/assets/icons/Bootstrap.svg";
+import Tailwind from "@/assets/icons/Tailwind-CSS.svg";
+import Next from "@/assets/icons/Next.js.svg";
+import MongoDB from "@/assets/icons/MongoDB.svg";
+import Git from "@/assets/icons/Git.svg";
+import VSC from "@/assets/icons/Visual-Studio-Code-(VS-Code).svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/coder.png";
 import { CardHeader } from "@/components/CardHeader";
@@ -22,12 +28,12 @@ const toolboxItems = [
     iconType: JavascriptIcon,
   },
   {
-    title: "HTML5",
-    iconType: HTML5,
+    title: "Typescript",
+    iconType: Typescript,
   },
   {
-    title: "CSS3",
-    iconType: CSS3,
+    title: "Photoshop",
+    iconType: Photoshop,
   },
   {
     title: "React",
@@ -40,6 +46,30 @@ const toolboxItems = [
   {
     title: "Github",
     iconType: Github,
+  },
+  {
+    title: "Bootstrap",
+    iconType: Bootstrap,
+  },
+  {
+    title: "Tailwind",
+    iconType: Tailwind,
+  },
+  {
+    title: "Next ",
+    iconType: Next,
+  },
+  {
+    title: "MongoDB",
+    iconType: MongoDB,
+  },
+  {
+    title: " VSC ",
+    iconType: VSC,
+  },
+  {
+    title: "Git",
+    iconType: Git,
   },
 ];
 const hoobies = [
@@ -118,12 +148,12 @@ export const AboutSection = () => {
               <Toolboxitems
                 items={toolboxItems}
                 className=""
-                itemsWrapperClassName=" animate-move-left [animation-duration:30s]"
+                itemsWrapperClassName=" animate-move-left [animation-duration:50s]"
               />
               <Toolboxitems
                 items={toolboxItems}
                 className="mt-6 "
-                itemsWrapperClassName=" animate-move-right [animation-duration:20s]"
+                itemsWrapperClassName=" animate-move-right [animation-duration:40s]"
               />
             </Card>
           </div>
