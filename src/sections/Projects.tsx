@@ -13,52 +13,52 @@ import Apple from "@/assets/images/apple.jpg";
 
 const portfolioProjects = [
   {
-    company: " Southwest Academy ",
-    year: "2024",
-    title: "Question and Answer Hub",
+    company: "SamVision ",
+    year: "2025",
+    title: "Monify",
     description:
-      "An interactive platform designed to facilitate knowledge-sharing and community-driven discussions for southwest academy students. students can easily ask questions, provide answers, and engage in discussions around various topics. The app features a streamlined user interface with secure sign-in and sign-up options, allowing users to create, vote on, and comment on questions and answers. ",
-    results: [
-      { title: "Building a community engage in discussions" },
-      { title: "students can easily ask questions and provide answers." },
-      { title: "Build using Next.js,React,Tailwind and MySql Database " },
-    ],
-    link: "https://sammythedeveloper.github.io/Q-A/",
-    image: QandA,
-  },
-  {
-    company: "Beyond SamVod Tech ",
-    year: "2024",
-    title: "Money Spending tracker Application",
-    description:
-      "A personal finance tool designed to help users manage their expenses and gain better control over their financial habits. With an intuitive and user-friendly interface, the app allows users to easily add, categorize, and track their expenses in real-time. Whether it's groceries, bills, transportation, or entertainment, this app helps users monitor their spending habits, set budget goals, and make informed decisions to save money. ",
+      "Monfiy is a static frontend appliction that a create to record my personal finance, it is a simple tool designed to help users manage their expenses and gain better control over their financial habits. With an intuitive and user-friendly interface, the app allows users to easily add, categorize, and track their expenses in real-time. Whether it's groceries, bills, transportation, or entertainment, this app helps users monitor their spending habits, set budget goals, and make informed decisions to save money. ",
     results: [
       { title: "Track personal expenses" },
       { title: "Categorize and list expenses" },
       { title: "Boost money saving & spending by 80%" },
     ],
-    link: "https://sammythedeveloper.github.io/moneytracking/",
+    link: "https://sammythedeveloper.github.io/monifyapp/",
     image: Finance,
   },
   {
+    company: "Q&A CommunityHub",
+    year: "2024",
+    title: "Question and Answer Hub",
+    description:
+      "An interactive platform designed to facilitate knowledge-sharing and community-driven discussions for my highschool. students can easily ask questions, provide answers, and engage in discussions around various topics. The app features a streamlined user interface with secure sign-in and sign-up options, allowing users to create, vote on, and comment on questions and answers. ",
+    results: [
+      { title: "Building a community engage in discussions" },
+      { title: "students can easily ask questions and provide answers." },
+      { title: "Build using Next.js,React,NodeJs,Tailwind and MySql Database " },
+    ],
+    link: "https://sammythedeveloper.github.io/Q-A/",
+    image: QandA,
+  },
+  {
     company: "EvangadiTech",
-    year: "2023",
+    year: "2024",
     title: "Amazon Shopping",
     description:
-      "A fully functional e-commerce platform inspired by the world-renowned Amazon marketplace. Built with modern web technologies, this clone replicates many of the core features of Amazon, providing users with a seamless shopping experience. ",
+      "A fully functional e-commerce platform inspired by the world-renowned Amazon marketplace. Built with modern web technologies, this clone replicates many of the core features of Amazon, providing users with a seamless shopping experience from adding items to the cart to payment processing at the checkout using stripe for payment system and firbase for authentication its semless experiance and one of a kind.",
     results: [
-      { title: "Interactive design" },
-      { title: "Secure User Authentication" },
-      { title: "Payment Tokenization" },
+      { title: "React, Javascript, and Node plus an interactive design" },
+      { title: "Secure User Authentication(Firebase)" },
+      { title: "Payment Tokenization(Stripe)" },
     ],
     link: "https://sammythedeveloper.github.io/amazonclone-2023/",
     image: Amazon,
   },
   {
-    company: "Netflex",
-    year: "2023",
+    company: "Netflix",
+    year: "2024",
     title: "Movie ",
-    description: "Netflex is a dynamic platform where users can explore, review, and rate a wide array of movies. With an intuitive and user-friendly interface, users can easily browse through movie listings, read detailed reviews, and share their own opinions. Whether you're a casual viewer or a dedicated cinephile, Netflex provides a space for movie enthusiasts to engage, discuss, and rate films.",
+    description: "Netflix is a dynamic platform where users can explore, review, and rate a wide array of movies. With an intuitive and user-friendly interface, users can easily browse through movie listings, read detailed reviews, and share their own opinions. Whether you're a casual viewer or a dedicated cinephile, Netflix provides a space for movie enthusiasts to engage, discuss, and rate films.",
     results: [
       { title: "Built with React and Tailwind CSS" },
       { title: "Fetch data (TMDb) API" },
@@ -69,9 +69,9 @@ const portfolioProjects = [
   },
   {
     company: "Apple Website",
-    year: "2022",
-    title: "Officail Apple website",
-    description: "A platform where users can review and rate movies.",
+    year: "2024",
+    title: "Official Apple website ",
+    description: "This is the offical apple frontend page that i did as a first project assignment while i was in evangaditech bootcamp.Build with just a simple react components and applying react props system to pass same property for children component,basically its a clone and a demo application.",
     results: [
       { title: "Built with React,Html and Css" },
       { title: "just a responsive offical apple website demo" },

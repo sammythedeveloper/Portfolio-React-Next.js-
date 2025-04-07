@@ -7,7 +7,7 @@ interface SectionProps {
 }
 
 const handleConnectClick = () => {
-  window.location.href = "mailto:samsondaba484@gmail.com?subject=Let's Connect&body=Hello, I would like to connect!";
+  window.location.href = "mailto:samsondev3@gmail.com?subject=Let's Connect&body=Hello, I would like to connect!";
 };
 
 export const ContactSection: React.FC<SectionProps> = ({ id }) => {

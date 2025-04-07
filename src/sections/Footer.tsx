@@ -35,6 +35,7 @@ export const Footer = () => {
                 rel="noopener noreferrer" 
               >
                 <span className=" font-semibold ">{link.title}</span>
+                
                 <ArrowUpRightIcon className="size-4" />
               </a>
             ))}
@@ -44,3 +45,4 @@ export const Footer = () => {
     </footer>
   );
 };
+

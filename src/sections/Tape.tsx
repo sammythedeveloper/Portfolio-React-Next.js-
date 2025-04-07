@@ -31,7 +31,7 @@ export const TapeSection: React.FC<SectionProps> = ({ id }) => {
                 {words.map((word) => (
                   <div key={word} className="inline-flex gap-4 items-center">
                     <span className=" text-gray-900 uppercase font-extrabold text-sm">
-                      {word}
+                      {word} 
                     </span>
                     <StartIcon className=" size-6 text-gray-900 -rotate-12 " />
                   </div>
