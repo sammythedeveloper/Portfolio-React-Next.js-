@@ -1,6 +1,7 @@
-import Finance from "@/assets/images/finance.jpg";
-import Amazon from "@/assets/images/amazon.jpg";
+import Finance from "@/assets/images/monify.png";
+import Amazon from "@/assets/images/amazon.png";
 import QandA from "@/assets/images/Q&A.png";
+import Fourseason from "@/assets/images/fsb.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -8,10 +9,24 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import Movie from "@/assets/images/movie.jpg";
-import Apple from "@/assets/images/apple.jpg";
+import Movie from "@/assets/images/movie.png";
+import Apple from "@/assets/images/apple.png";
 
 const portfolioProjects = [
+  {
+    company: "SamVision ",
+    year: "2025",
+    title: "Four Season Studio",
+    description:
+      "Four Season Studio, the ultimate barber shop app designed to meet all your grooming needs with ease and style. looking for a quick trim, a fresh haircut, or a full grooming session, Four Season Studio offers a wide range of professional services tailored to your preferences.Book now ",
+    results: [
+      { title: "Browse Services" },
+      { title: "Book Appointments" },
+      { title: "Stay Updated" },
+    ],
+    link: "https://four-season-barbershop-tzwp.vercel.app/",
+    image: Fourseason,
+  },
   {
     company: "SamVision ",
     year: "2025",
@@ -86,26 +101,24 @@ interface SectionProps {
 
 export const ProjectsSection: React.FC<SectionProps> = ({ id }) => {
   return (
-    <section className="pb-16 lg:py-24" id={id}>
-      <div className="container">
+    <section className="pb-16 lg:py-24 " id={id}>
+      <div className="container  ">
         <SectionHeader
           eyebrows="Real-world Results"
           title="Featured Projects"
           description="See how I transform concepts into engaging digital experiences."
         />
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
           <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-center bg-clip-text text-transparent"></p>
         </div>
         <h2 className="font-serif text-3xl md:text-5xl text-center m-6"></h2>
         <p className=" text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto "></p>
-        <div className="mt-10 md:mt-20 flex flex-col gap-20">
+        <div className="mt-10 md:mt-20 flex flex-col gap-20 ">
           {portfolioProjects.map((project, projectIndex) => (
             <Card
               key={project.title}
-              className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
-              style={{
-                top: `calc(64px + ${projectIndex * 40}px`,
-              }}
+              className=" px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 "
+         
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">

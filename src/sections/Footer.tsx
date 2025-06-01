@@ -2,7 +2,7 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "Youtube",
-    href: "https://www.youtube.com/@Beyond_sammy",
+    href: "https://www.youtube.com/watch?v=jj5_5PyEYhA",
   },
   {
     title: "Twitter",
