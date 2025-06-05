@@ -2,11 +2,9 @@ import Finance from "@/assets/images/monify.png";
 import Amazon from "@/assets/images/amazon.png";
 import QandA from "@/assets/images/Q&A.png";
 import Fourseason from "@/assets/images/fsb.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import Movie from "@/assets/images/movie.png";
@@ -25,6 +23,7 @@ const portfolioProjects = [
       { title: "Stay Updated" },
     ],
     link: "https://four-season-barbershop-tzwp.vercel.app/",
+    github:"https://github.com/sammythedeveloper/four_season_barbershop",
     image: Fourseason,
   },
   {
@@ -39,6 +38,7 @@ const portfolioProjects = [
       { title: "Boost money saving & spending by 80%" },
     ],
     link: "https://sammythedeveloper.github.io/monifyapp/",
+    github:"https://github.com/sammythedeveloper/Monify",
     image: Finance,
   },
   {
@@ -53,6 +53,7 @@ const portfolioProjects = [
       { title: "Build using Next.js,React,NodeJs,Tailwind and MySql Database " },
     ],
     link: "https://sammythedeveloper.github.io/Q-A/",
+    github:"https://github.com/sammythedeveloper/Q-A",
     image: QandA,
   },
   {
@@ -67,6 +68,7 @@ const portfolioProjects = [
       { title: "Payment Tokenization(Stripe)" },
     ],
     link: "https://sammythedeveloper.github.io/amazonclone-2023/",
+    github:"https://github.com/sammythedeveloper/amazonclone-2023",
     image: Amazon,
   },
   {
@@ -79,7 +81,8 @@ const portfolioProjects = [
       { title: "Fetch data (TMDb) API" },
       { title: "Post requests to review a movie" },
     ],
-    link: "https://sammythedeveloper.github.io/netflix/", // This can be a placeholder or a link when ready
+    link: "https://sammythedeveloper.github.io/netflix/", 
+    github:"https://github.com/sammythedeveloper/netflix",
     image: Movie,
   },
   {
@@ -91,7 +94,8 @@ const portfolioProjects = [
       { title: "Built with React,Html and Css" },
       { title: "just a responsive offical apple website demo" },
     ],
-    link: "https://sammythedeveloper.github.io/Apple_website_clone/", // This can be a placeholder or a link when ready
+    link: "https://sammythedeveloper.github.io/Apple_website_clone/",
+    github:"https://github.com/sammythedeveloper/Apple_website_clone",
     image: Apple,
   },
 ];
@@ -144,8 +148,14 @@ export const ProjectsSection: React.FC<SectionProps> = ({ id }) => {
                     ))}
                   </ul>
                   <a href={project.link}>
-                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
+                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 ml-2">
                       <span>View Live Site</span> {/* Updated text */}
+                      <ArrowUpRightIcon className="size-4" />
+                    </button>
+                  </a>
+                  <a href={project.github}>
+                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-2 ml-2">
+                      <span>Github </span> {/* Updated text */}
                       <ArrowUpRightIcon className="size-4" />
                     </button>
                   </a>
